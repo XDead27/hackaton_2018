@@ -9,7 +9,7 @@
     <HorizontalScrollView
         android:id="@+id/horizontalScrollView"
         android:layout_width="fill_parent"
-        android:layout_height="300dp">
+        android:layout_height="450dp">
 
         <LinearLayout
             android:layout_width="fill_parent"
@@ -19,7 +19,8 @@
                 android:id="@+id/textview1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="60dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="60dp"
                 android:fontFamily="casual"
                 android:text="Luni"
                 android:textSize="24sp"
@@ -29,7 +30,8 @@
                 android:id="@+id/textview2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="5dp"
                 android:fontFamily="casual"
                 android:text="Marti"
                 android:textSize="24sp"
@@ -39,7 +41,8 @@
                 android:id="@+id/textview3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="5dp"
                 android:fontFamily="casual"
                 android:text="Miercuri"
                 android:textSize="24sp"
@@ -49,7 +52,8 @@
                 android:id="@+id/textview4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="5dp"
                 android:fontFamily="casual"
                 android:text="Joi"
                 android:textSize="24sp"
@@ -59,7 +63,8 @@
                 android:id="@+id/textview5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="5dp"
                 android:fontFamily="casual"
                 android:text="Vineri"
                 android:textSize="24sp"
@@ -69,7 +74,8 @@
                 android:id="@+id/textview6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="5dp"
                 android:fontFamily="casual"
                 android:text="Sambata"
                 android:textSize="24sp"
@@ -79,38 +85,366 @@
                 android:id="@+id/textview7"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="5dp"
                 android:fontFamily="casual"
                 android:text="Duminica"
                 android:textSize="24sp"
                 android:textStyle="bold" />
 
             <EditText
-                android:id="@+id/edittexthour1"
+                android:id="@+id/editText"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:ems="3"
-                android:inputType="number"
-                />
+                android:ems="4"
+                android:inputType="textPersonName"
+                android:text="clasa"
+                android:layout_marginStart="-680dp"
+                android:layout_marginTop="40dp" />
 
             <EditText
-                android:id="@+id/edittexthour2"
+                android:id="@+id/editText2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignParentLeft="true"
-                android:ems="3"
-                android:inputType="number"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.68"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.825" />
+                android:ems="4"
+                android:inputType="textPersonName"
+                android:text="clasa"
+                android:layout_marginStart="-87dp"
+                android:layout_marginTop="85dp" />
 
+            <EditText
+                android:id="@+id/editText3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="4"
+                android:inputType="textPersonName"
+                android:text="clasa"
+                android:layout_marginStart="-87dp"
+                android:layout_marginTop="130dp" />
+
+            <EditText
+                android:id="@+id/editText4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="4"
+                android:inputType="textPersonName"
+                android:text="clasa"
+                android:layout_marginStart="-87dp"
+                android:layout_marginTop="175dp" />
+
+            <EditText
+                android:id="@+id/editText5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="4"
+                android:inputType="textPersonName"
+                android:text="clasa"
+                android:layout_marginStart="-87dp"
+                android:layout_marginTop="220dp" />
+
+            <EditText
+                android:id="@+id/editText6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="4"
+                android:inputType="textPersonName"
+                android:text="clasa"
+                android:layout_marginStart="-87dp"
+                android:layout_marginTop="265dp" />
+
+            <EditText
+                android:id="@+id/editText7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="4"
+                android:inputType="textPersonName"
+                android:text="clasa"
+                android:layout_marginStart="-87dp"
+                android:layout_marginTop="310dp" />
+
+            <EditText
+                android:id="@+id/editText12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="4"
+                android:inputType="textPersonName"
+                android:text="clasa"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="40dp" />
+
+            <EditText
+                android:id="@+id/editText22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="4"
+                android:inputType="textPersonName"
+                android:text="clasa"
+                android:layout_marginStart="-87dp"
+                android:layout_marginTop="85dp" />
+
+            <EditText
+                android:id="@+id/editText32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="4"
+                android:inputType="textPersonName"
+                android:text="clasa"
+                android:layout_marginStart="-87dp"
+                android:layout_marginTop="130dp" />
+
+            <EditText
+                android:id="@+id/editText42"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="4"
+                android:inputType="textPersonName"
+                android:text="clasa"
+                android:layout_marginStart="-87dp"
+                android:layout_marginTop="175dp" />
+
+            <EditText
+                android:id="@+id/editText52"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="4"
+                android:inputType="textPersonName"
+                android:text="clasa"
+                android:layout_marginStart="-87dp"
+                android:layout_marginTop="220dp" />
+
+            <EditText
+                android:id="@+id/editText62"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="4"
+                android:inputType="textPersonName"
+                android:text="clasa"
+                android:layout_marginStart="-87dp"
+                android:layout_marginTop="265dp" />
+
+            <EditText
+                android:id="@+id/editText72"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="4"
+                android:inputType="textPersonName"
+                android:text="clasa"
+                android:layout_marginStart="-87dp"
+                android:layout_marginTop="310dp" />
+
+            <EditText
+                android:id="@+id/editText13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="4"
+                android:inputType="textPersonName"
+                android:text="clasa"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="40dp" />
+
+            <EditText
+                android:id="@+id/editText23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="4"
+                android:inputType="textPersonName"
+                android:text="clasa"
+                android:layout_marginStart="-87dp"
+                android:layout_marginTop="85dp" />
+
+            <EditText
+                android:id="@+id/editText33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="4"
+                android:inputType="textPersonName"
+                android:text="clasa"
+                android:layout_marginStart="-87dp"
+                android:layout_marginTop="130dp" />
+
+            <EditText
+                android:id="@+id/editText43"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="4"
+                android:inputType="textPersonName"
+                android:text="clasa"
+                android:layout_marginStart="-87dp"
+                android:layout_marginTop="175dp" />
+
+            <EditText
+                android:id="@+id/editText53"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="4"
+                android:inputType="textPersonName"
+                android:text="clasa"
+                android:layout_marginStart="-87dp"
+                android:layout_marginTop="220dp" />
+
+            <EditText
+                android:id="@+id/editText63"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="4"
+                android:inputType="textPersonName"
+                android:text="clasa"
+                android:layout_marginStart="-87dp"
+                android:layout_marginTop="265dp" />
+
+            <EditText
+                android:id="@+id/editText73"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="4"
+                android:inputType="textPersonName"
+                android:text="clasa"
+                android:layout_marginStart="-87dp"
+                android:layout_marginTop="310dp" />
+
+            <EditText
+                android:id="@+id/editText14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="4"
+                android:inputType="textPersonName"
+                android:text="clasa"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="40dp" />
+
+            <EditText
+                android:id="@+id/editText24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="4"
+                android:inputType="textPersonName"
+                android:text="clasa"
+                android:layout_marginStart="-87dp"
+                android:layout_marginTop="85dp" />
+
+            <EditText
+                android:id="@+id/editText34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="4"
+                android:inputType="textPersonName"
+                android:text="clasa"
+                android:layout_marginStart="-87dp"
+                android:layout_marginTop="130dp" />
+
+            <EditText
+                android:id="@+id/editText44"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="4"
+                android:inputType="textPersonName"
+                android:text="clasa"
+                android:layout_marginStart="-87dp"
+                android:layout_marginTop="175dp" />
+
+            <EditText
+                android:id="@+id/editText54"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="4"
+                android:inputType="textPersonName"
+                android:text="clasa"
+                android:layout_marginStart="-87dp"
+                android:layout_marginTop="220dp" />
+
+            <EditText
+                android:id="@+id/editText64"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="4"
+                android:inputType="textPersonName"
+                android:text="clasa"
+                android:layout_marginStart="-87dp"
+                android:layout_marginTop="265dp" />
+
+            <EditText
+                android:id="@+id/editText74"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="4"
+                android:inputType="textPersonName"
+                android:text="clasa"
+                android:layout_marginStart="-87dp"
+                android:layout_marginTop="310dp" />
+            <EditText
+                android:id="@+id/editText15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="4"
+                android:inputType="textPersonName"
+                android:text="clasa"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="40dp" />
+
+            <EditText
+                android:id="@+id/editText25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="4"
+                android:inputType="textPersonName"
+                android:text="clasa"
+                android:layout_marginStart="-87dp"
+                android:layout_marginTop="85dp" />
+
+            <EditText
+                android:id="@+id/editText35"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="4"
+                android:inputType="textPersonName"
+                android:text="clasa"
+                android:layout_marginStart="-87dp"
+                android:layout_marginTop="130dp" />
+
+            <EditText
+                android:id="@+id/editText45"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="4"
+                android:inputType="textPersonName"
+                android:text="clasa"
+                android:layout_marginStart="-87dp"
+                android:layout_marginTop="175dp" />
+
+            <EditText
+                android:id="@+id/editText55"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="4"
+                android:inputType="textPersonName"
+                android:text="clasa"
+                android:layout_marginStart="-87dp"
+                android:layout_marginTop="220dp" />
+
+            <EditText
+                android:id="@+id/editText65"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="4"
+                android:inputType="textPersonName"
+                android:text="clasa"
+                android:layout_marginStart="-87dp"
+                android:layout_marginTop="265dp" />
+
+            <EditText
+                android:id="@+id/editText75"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="4"
+                android:inputType="textPersonName"
+                android:text="clasa"
+                android:layout_marginStart="-87dp"
+                android:layout_marginTop="310dp" />
 
         </LinearLayout>
 
     </HorizontalScrollView>
+
 
 
 
