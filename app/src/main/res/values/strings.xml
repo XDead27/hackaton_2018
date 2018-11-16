@@ -1,9 +1,11 @@
 <resources>
-    <string name="app_name">hackaton_2018</string>
+    <string name="app_name">Hackaton_2018</string>
     <string name="tab_text_1">Orar</string>
     <string name="tab_text_2">Calendar</string>
     <string name="action_settings">Creaza/Modifica Orar</string>
     <string name="action_clasa">Organizare Clasa</string>
     <string name="section_format">Hello World from section: %1$d</string>
     <string name="text_hours">Orele de curs</string>
+    <string name="save_button">Salveaza</string>
+    <string name="menu_edit_orar_item">Edit</string>
 </resources>

@@ -86,7 +86,13 @@ public class MainActivity extends AppCompatActivity {
         //noinspection SimplifiableIfStatement
         switch(id){
             case R.id.action_settings:
+
+                Bundle dataBundle = new Bundle();
+                dataBundle.putInt("id", 0);
+
                 Intent intent = new Intent(getApplicationContext(), OrgOrarDisplay.class);
+                intent.putExtras(dataBundle);
+
                 startActivity(intent);
 
                 return true;
